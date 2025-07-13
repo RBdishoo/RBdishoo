@@ -1,1 +1,1 @@
-# Intrusion-Detection-System
+# Intrusion Detection System (IDS) with AI-Integrated Anomaly Detection
