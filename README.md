@@ -24,3 +24,18 @@ On a test dataset comprising 432,074 benign and 13,835 anomalous network activit
 * **Autoencoder Insight:** Demonstrated a robust overall accuracy for benign traffic, with an ROC AUC of 0.61.
 
 ### Project Structure
+
+    model_training.py          # Script for initial data preprocessing and model training
+    evaluate_models.py         # Main script for evaluating trained models on test data
+    Tuesday-WorkingHours.pcap_ISCX.csv # Test dataset (approx. 450MB)
+    scaler.joblib              # Pre-trained StandardScaler for feature normalization
+    dropped_columns.joblib     # List of columns identified for removal during preprocessing
+    autoencoder_model.h5       # Trained Keras Autoencoder model
+    autoencoder_threshold.joblib # Anomaly threshold for the Autoencoder model
+    isolation_forest_model.joblib # Trained Scikit-learn Isolation Forest model
+    images/                    # Directory containing generated plots and figures
+        autoencoder_roc_curve.png
+        autoencoder_reconstruction_error_distribution.jpg
+        isolation_forest_roc_curve.png
+        isolation_forest_anomaly_score_distribution.jpg
+    RESULTS.md                 # Detailed console output, plots, and in-depth analysis of evaluation results
