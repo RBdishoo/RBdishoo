@@ -16,7 +16,7 @@ The exponential rise of AI has transformed cybersecurity into a dynamic frontier
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Intrusion Detection System with AI integration          | <a href="https://github.com/RBdishoo/Intrusion-Detection-System">Project</a>|
-
+| Secure Cloud Configuration Auditing Tool with AI-Driven Insights (AWS)          | <a href="https://github.com/RBdishoo/CloudSecAuditor">Project</a>|
 
 
 
